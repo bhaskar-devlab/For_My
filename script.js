@@ -71,17 +71,24 @@ function nextPage() {
 function angry() {
 
     document.getElementById("reply").innerHTML =
-        "Thik ache... rag koro. 🥺❤️ " +
-        "Kintu amar theke dure jeo na.";
+        "Acha... tahole ekhono amar upor rag ache. 🥺❤️ " +
+        "Ami tomake ekhon force korbo na... " +
+        "Shudhu amar theke dure jeo na.";
 
+    setTimeout(() => {
+        showPage(4);
+    }, 4000);
 }
 
 
 function smile() {
 
     document.getElementById("reply").innerHTML =
-        "Tahole ekta chotto smile dao na... 🥺❤️";
+        "Ektu kom? 🥹 Tahole amar Bou-er ekta chotto smile chai. ❤️";
 
+    setTimeout(() => {
+        showPage(4);
+    }, 2500);
 }
 
 
